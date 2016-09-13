@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost:3306
--- Tempo de Geração: 12/09/2016 às 13:29
+-- Tempo de Geração: 13/09/2016 às 10:22
 -- Versão do servidor: 5.6.31
 -- Versão do PHP: 5.6.20
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Banco de dados: `memocash_2`
+-- Banco de dados: `memocash_api`
 --
 
 -- --------------------------------------------------------
@@ -474,8 +474,7 @@ INSERT INTO `fiscal_cest` (`cest`, `ncm`, `descricao`) VALUES
 ('1301000', '30051010', 'Curativos (pensos) adesivos e outros artigos com uma camada adesiva, impregnados ou recobertos de substâncias farmacêuticas - Lista Positiva'),
 ('1301001', '30051010', 'Curativos (pensos) adesivos e outros artigos com uma camada adesiva, impregnados ou recobertos de substâncias farmacêuticas - Lista Negativa'),
 ('1301100', '3005', 'Algodão, atadura, esparadrapo, gazes, pensos, sinapismos, e outros, acondicionados para venda a retalho para usos medicinais,cirúrgicos ou dentários, não impregnados ou recobertos de substâncias farmacêuticas - Lista Neutra'),
-('1301101', '30051090', 'Algodão, atadura, esparadrapo, haste flexível ou não, com uma ou ambas extremidades de algodão, gazes, pensos, sinapismos, e outros, não impregnados ou recobertos de substâncias farmacêuticas ou acondicionados para venda a retalho para usos medicinais, cirúrgicos ou dentários');
-INSERT INTO `fiscal_cest` (`cest`, `ncm`, `descricao`) VALUES
+('1301101', '30051090', 'Algodão, atadura, esparadrapo, haste flexível ou não, com uma ou ambas extremidades de algodão, gazes, pensos, sinapismos, e outros, não impregnados ou recobertos de substâncias farmacêuticas ou acondicionados para venda a retalho para usos medicinais, cirúrgicos ou dentários'),
 ('1301200', '40151100', 'Luvas cirúrgicas e luvas de procedimento - neutra'),
 ('1301200', '40151900', 'Luvas cirúrgicas e luvas de procedimento - neutra'),
 ('1301300', '40141000', 'Preservativo - neutra'),
@@ -872,8 +871,7 @@ INSERT INTO `fiscal_cest` (`cest`, `ncm`, `descricao`) VALUES
 ('2005200', '56039290', 'Sutiã descartável, assemelhados e papel para depilação'),
 ('2005300', '82032090', 'Pinças para sobrancelhas'),
 ('2005400', '82141000', 'Espátulas (artigos de cutelaria)'),
-('2005500', '82142000', 'Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluídas as limas para unhas)');
-INSERT INTO `fiscal_cest` (`cest`, `ncm`, `descricao`) VALUES
+('2005500', '82142000', 'Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluídas as limas para unhas)'),
 ('2005600', '90251110', 'Termômetros, inclusive o digital'),
 ('2005600', '90251990', 'Termômetros, inclusive o digital'),
 ('2005700', '96032', 'Escovas e pincéis de barba, escovas para cabelos, para cílios ou para unhas e outras escovas de toucador de pessoas, incluídas as que sejam partes de aparelhos, exceto escovas de dentes'),
