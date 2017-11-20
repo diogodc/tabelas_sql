@@ -1209,6 +1209,7 @@ INSERT INTO `fiscal_cest` (`cest`, `ncm`, `descricao`) VALUES
 ('2806300', '96', 'Produtos de limpeza e conservação doméstica'),
 ('2806400', '39', 'Artigos infantis'),
 ('2899900', '96', 'Outros produtos comercializados pelo sistema de marketing direto porta-a-porta a consumidor final não relacionados em outros itens deste anexo');
+('2899900', '49', 'Outros produtos comercializados pelo sistema de marketing direto porta-a-porta a consumidor final não relacionados em outros itens deste anexo');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
